@@ -1,0 +1,89 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Literature Review \\ \textit{What are 'Jupyter Notebooks'?}\\}
+
+\author{\IEEEauthorblockN{Kitana Toft}
+\IEEEauthorblockA{\textit{University of California - Santa Cruz} \\
+\textit{Baskin School of Engineering}\\
+Santa Cruz, USA \\
+ktoft@ucsc.edu}}
+
+\maketitle
+
+\begin{abstract}
+    The target audience is directed towards college students, data scientists, and those interested in machine learning tools. To gain a deeper understanding of machine learning using Jupyter Notebooks (a web application that allows multiple users to create, collaborate, and edit live code/equations/etc.). For this literature review there are three journal aritcles being reviewed on the topic of Jupyter Notebooks.
+\end{abstract}
+
+\begin{IEEEkeywords}
+machine learning, jupyter, notebooks
+\end{IEEEkeywords}
+
+% 
+\section{Why Jupyter is Data Scientists’ Computational Notebook of Choice}
+In “\textbf{Why Jupyter is Data Scientists’ Computational Notebook of Choice}”, Jeffery Perkel highlights the advantages of using Jupyter Notebooks and provides a review of perspectives from various qualified users.  Perkel describes Jupyter as “J\textit{upyter is a free, open-source, interactive web tool known as a computational notebook, which researchers can use to combine software code, computational output, explanatory text and multimedia resources in a single document}” \cite{b1}. Perkel states that \textit{Jupyter} has been quickly gaining popularity over the past few years and has become the \textit{de facto standard} according to Lorena Barba, a mechanical and aerospace engineer at George Washington University DC. The name “Jupyter” was derived from the programming languages Julis (Ju), Python (Py), and R, by the founder Fernando Pérez. It is said to be a platform that has the capability to handle a multitude of programming languages and architectures, which is part of the attraction that leads so many to use this tool.\\
+
+Perkel mentioned that the user base for \textit{Jupyter} has grown exponentially in the past few years, noting an analysis on the code-sharing site GitHub experienced growth from 200,000 users to 2.5 million users from 2015 to 2018. Other notable contributors to the development pace include Gmail and Google Docs that have pushed cloud based services to grow in popularity due to customer demand. Also, Perkel notes that the “maturation of scientific Python and data science” has led to more cloud based services becoming available as a common place for contributors to access and edit collaboratively. Jupyter founder Pérez said that “\textit{in many cases, it’s much easier to move the computer to the data than the data to the computer},” speaking about the capabilities of Jupyter as an cloud based product \cite{b1}. \\
+
+There are two components for Jupyter notebooks, (1) user input for programming live code and (2) front-end text cells for editing. Typically for notebooks, there is only one programming language per kernel (which is a back-end browser that compiles and renders the code), however with Jupyter the range for languages is increased -- hence the trifecta of languages including Python, Julia, and R. This provides the user with more flexibility and creativity when designing their code. Also, since Jupyter is a cloud based service, their kernels are not located on the user’s computer. This means that a user who may have a slower or less powerful computer can use this application to render their code with more computational power than they had access to previously. This is achieved by utilizing Google’s cloud resources; their “graphical processing units” (GPU’s)\cite{b1}. This is attractive because any user with a great deal of data can actually process it or do so quicker. It has become a popular tool for astronomers who have loads of data to crunch, students, and more. The processing power that this tool processes is unlike any other.\\
+
+The fact that Jupyter is a cloud computing application, it solves the problem of those who do not have computing environments as one another. For example, not every student owns a Mac or a Windows computer, everyone owns a variety of devices with different operating systems. This is problematic when someone is trying to get help or manage a large user base with their IT work normally, yet having the software accessible on a web browser reduces the number of issues that can occur. The example provided was of a group of 800 students who were studying data science and required different and unique IT help with their local computers in comparison to using the cloud application, Jupyter \cite{b1}.\\
+
+It is worth noting that there are some problems that can manifest when using a notebook, as Joel Grus a Seattle research engineer for Artificial Intelligence notes \cite{b1}. He believes that notebooks promote poor coding practices since the code can be run out of order. This can lead to confusion and frustration for a programmer. Since Jupyter can be used to write code in a non-linear fashion, it is very powerful. Modules can be broken down into separate parts and used independently thus providing the user with more flexibility than there was previously. \\
+
+Due to the fact that Jupyter has so many attractive features, it is a highly used tool for laboratory notebooks for scientific computing. Scientists are able to create a “computational narrative” of their work that is collectively the data, some narrative text, and the results in a single document that can illustrate the data live. This style of documentation provides a more interactive medium for data scientists and researchers which may lead users to go further with their exploration. The interaction that Jupyter is able to host for its users promotes better documentation and conversation to further discussion of the theoretical concepts and actual results. The features that Jupyter has currently are driven by its users and the demand for more mass data driven computation. Meaning that the application and user interaction continues to grow as more users participate and share their findings. This is a form of machine learning driven by user contribution and demand.\\
+
+\section{Why Jupyter Notebooks Are So Popular Among Data Scientists}
+Sejuti Das, a senior technology journalist from Analytics India Magazine shares a similar stance on the benefits of using Jupyter notebooks as she explains in her journal article “Why Jupyter Noteboooks Are So Popular Among Data Scientists” \cite{b2}. She notes that the rise of Jupyter has climbed to over 2.5 million users since 2014 as it has become the “de facto choice for data scientists” due to the tooling that it supports over a wide range of programming languages. Das states that the platform promotes data scientists to practice, collaborate, and venture further with exploratory analysis.\\
+
+Jupyter does not possess a language-specific IDE (integrated development environment) since the platform is built to interpret a multitude of programming languages; which  is one of the many reasons why so many data scientists are attracted to it. It is a highly specialized online notebook that has the capabilities to combine code and explanations in a single succinct document that promotes “streamlining end to end workflow” \cite{b2}.\\
+  
+To install Jupyter it takes a simple Python pip command (installs a Python package) onto the users local computer. Das suggests using a program called “Anaconda”, which is a package manager specific to Python and R, in conjunction with Jupyter Notebooks as it helps link together three essential components to starting your first notebook (the notebook application, back-end kernels, and document capabilities). Das goes on to explain that Jupyter is like a one stop shop for storing and working on both a user’s programming and documentation.\\
+    
+But why is Jupyter Notebook the de facto choice? There are many purposes of Jupyter that are extremely useful  for data mining such as data cleaning, statistical modeling, data visualization, and training machine learning models \cite{b2}. Jupyter is basically a powerful compiler paired with Markdown capabilities. One of the many benefits of using Jupyter is the fact that there are so many features (mentioned previously), which help remove the barrier to entry for many novice programmers or non-technical users who can work or view the shared document. \\
+
+Other advantages that Jupyter provides that both Das \cite{b2} and Perkel \cite{b1} note is the feature of exploratory data analysis. Jupyter provides coding cells that have the option to be individually checked out and compiled in a non-linear fashion.  In other words, IDEs like VSCode or PyCHarm require the user to input all of their code and run it sequentially. However Jupyter  has aids to help run inline code so it is not necessarily dependent on previous code which makes it   useful for exploratory data analysis \cite{b2}\\
+    
+Jupyter is also unique in the sense that it evaluates every cell independently, which makes cache-ing much faster and easier for the user to retrieve results. For instance, if a user was using code for machine learning training or downloading gigabytes of data remotely Jupyter is able to handle either instance seamlessly. What makes Jupyter language independent is because Jupyter has a JSON format. This format is able to convert from JSON to other file formats like PDF, HTML, Markdown, and more making it a popular choice for most users \cite{b2}.\\
+
+Das states that another benefit to using Jupyter is for its data visualizations. The notebook supports imaging and rendering for visuals similarly to how it does for code. The tooling it uses to help render the visuals include Matplotlib (Python plotting, which can be static, animated, or interactive), Ploty (a front-end machine learning tool), and Bokeh (a Python library that produces a JSON file which works as input for BokehJS -- a Javascript library). Using each of these tools, Jupyter is able to provide its users with code rendering, visuals, and documentation in a shared space on a single document \cite{b2}. In conclusion, Das believes that Jupyter is the ideal tool for data visualization and tooling for machine learning because of all of its unique features.\\
+
+\section{Dive into Machine Learning}
+
+To start your first project Floering suggests some tools which include Python, IPython, and Jupyter Notebook in addition to the Anaconda Python distribution (which installs several computing packages).  He then provided a tutorial on both IPython and scikit-learn to help solidify introductory topics for this walkthrough.  To better understand Jupyter Notebooks, Floering recaps on why scikit-learn is the “go-to library for machine learning” \cite{b3}.\\
+
+In order to better understand machine learning before “diving deeper” into Jupyter Notebooks. Floering suggests to read “A Few Useful Things to Know about Machine Learning '', by Pedro Domingos, a computer science and engineering professor at University of Washington. His research covers topics on machine learning that cover realistic probabilities, automating, living models, and techniques that provide the reader with a deeper understanding of data science \cite{b3}. From that, Floering stresses upon two major points, (1) that “data alone is not enough” and (2) “more data beats a cleverer algorithm” \cite{b3}. From the first point, “data is not enough”, Floering notes that machine learning isn’t magic and that it takes skill with programming and hard work to come to fruition. Yet, when you do have the programming background there are some interesting tooling that can make the process less complicated. He believes that you can either design a better algorithm or gather more data for a bigger sample size.\\
+
+In short, Floering emphasizes the importance of learning the associated tools in order to get the best experience possible with machine learning (such as Python and Jupyter Notebooks) as those tools are used in industry as the factory standard. He doesn’t stop there, but he goes on to remind the reader that just learning the tooling isn’t enough, you need to practice these skills in order to continue learning good practices. To learn more about machine learning he provides a list of open-source libraries.\\
+
+\section{Conclusion}
+To conclude, given the three perspectives -- Perkel, Das, and Floering, learning Jupyter Notebooks in addition to machine learning will be a highly attractive skill set. Jupyter has proved to be the de facto tool for an all-in-one shop for computing notebooks. The features and functionality on a cloud based application is what make it so attractive to programmers and data scientists alike.\\
+
+% \section*{References}
+
+\begin{thebibliography}{00}
+% \bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
+
+\bibitem{b1} Perkel, Jeffery. (2018, October 30). Why Jupyter is data scientists' COMPUTATIONAL notebook of choice. Retrieved February 18, 2021, from https://www.nature.com/articles/d41586-018-07196-1
+
+\bibitem{b2} Das, S. (2021, January 27). Why Jupyter notebooks are so popular among data scientists. Retrieved February 24, 2021, from https://analyticsindiamag.com/why-jupyter-notebooks-are-so-popular-among-data-scientists/
+
+\cite{b3} Floering, M. (2020, March 31). Dive into Machine Learning. Retrieved February 24, 2021, from https://hangtwenty.github.io/dive-into-machine-learning/
+
+\end{thebibliography}
+\vspace{12pt}
+% \color{red}
+% \textbf{Closing Remarks}:
+
+%add closing remarks here
+\end{document}
